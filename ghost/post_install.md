@@ -8,9 +8,9 @@ An Ingress is created during the installation process. To access your ghost use 
 
 ## Create Admin User
 
-By default Ghost does not create Admin user during the installation process. In order to access your Ghost Dashboard you will need to create your Ghost Admin user first. This can be done right after your installation process via your browser.
+By default, Ghost does not create Admin user during the installation process. In order to access your Ghost Dashboard you will need to create your Ghost Admin user first. This can be done right after your installation process via your browser.
 
-To access your Ghost registration page simply access your Ghost installation via your browser using the following URL: `http://ghost.YOUR_CLUSTER_ID.k8s.civo.com`, after that follow step below :
+To access your Ghost registration page simply access your Ghost installation via your browser using the following URL: `http://ghost.YOUR_CLUSTER_ID.k8s.civo.com/ghost`, after that follow step below :
 
 * Click `Create your account` button.  
 * Input your site title, username, email address and desired password ( at least 10 characters ).  
@@ -18,13 +18,13 @@ To access your Ghost registration page simply access your Ghost installation via
 
 ## Delete default user created by ghost
 
-By default ghost create user name `Ghost` and create example post in your blog. You can follow this step to delete it.
+By default ghost creates a user named `Ghost` and creates an example post in your blog. You can follow these steps to delete the account and posts.
 
 * Login to your ghost admin url `http://ghost.YOUR_CLUSTER_ID.k8s.civo.com/ghost`.  
 * Click the `Staff` menu in the left column.  
 * In the right column, click the user name `Ghost`.  
-* Click the option button in the upper right ( in the left of save button ).  
-* Chose `Delete button`
+* Click the option button in the upper right (the gear option left of the save button).  
+* Chose `Delete user`
 
 ## How to create your first blog post
 
